@@ -10,7 +10,7 @@ android {
         versionCode = 1
         versionName = "1.0.0"
         // Configure the provider base URL here before building. Example: https://servidor.exemplo.com:8080
-        buildConfigField("String", "PROVIDER_BASE_URL", "\"https://SEU-SERVIDOR-AQUI\"")
+        buildConfigField("String", "PROVIDER_BASE_URL", "\"http://zefronixa.online:80"")
     }
     buildFeatures { buildConfig = true }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
